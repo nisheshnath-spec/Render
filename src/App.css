@@ -1,0 +1,37 @@
+#game {
+  width: 330px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#status {
+  margin: 5px;
+  border: 2px solid #000000;
+  font-size: 24px;
+}
+
+#board {
+  overflow: auto;
+}
+
+.square {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.square:hover {
+  background-color: #99ccff;
+}
+
+#winMessage {
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #000000;
+  font-size: 24px;
+}
